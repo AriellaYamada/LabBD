@@ -67,8 +67,6 @@ public class GeraMongo {
             flag = 3;
             StringTokenizer stok = new StringTokenizer(tabela, " ");
             this.tabela = stok.nextToken().trim();
-            stok.nextToken().trim();
-            this.embedTabela = stok.nextToken().trim();
         } else {
             flag = 0;
             this.tabela = tabela;
@@ -113,13 +111,7 @@ public class GeraMongo {
             getPk(tabela);
             getFks(tabela);
             selectStar(tabela, 1);
-
-            pegarNomesDeTabelas(embedTabela);
-            selectNomeColuna(embedTabela);
-            getPk(embedTabela);
-            getFks(embedTabela);
-            selectStar(embedTabela, 2);
-
+            
             montaStringNN(tabela);
         }
 
@@ -326,9 +318,28 @@ public class GeraMongo {
     }
 
     public void montaStringNN(String tabela) {
-        montaString(tabela);
-        montaString(embedTabela);
-
+        String mongoString = "";
+        for (int i = 0; i < R_table.size(); i++) {
+            for (int j = 0; j < arrayTabela.size(); j++){
+                ArrayList<String> tmpRef = new ArrayList();
+                for (int k = 0; k < arrayTabela.size(); k++) {
+                    if(arrayTabela.get(k).fkvalor == arrayTabela.get(j).fkvalor && 
+                            tmpRef.indexOf(arrayTabela.get(k).fkvalor.get(i)) == -1){
+                        tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
+                    }
+                }
+                mongoString += "db." + R_table.get(i) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(i) +
+                        "},{$set:{" + tabela + ":[";
+                for (int k = 0; k < tmpRef.size(); k++){
+                    if(k == 0)
+                        mongoString += tmpRef.get(k);
+                    else
+                        mongoString += "," + tmpRef.get(k);
+                }
+                mongoString += "]}})\n";                
+            }
+        }
+        System.out.println(mongoString);
     }
 
     public void montaStringEmbedded(String tabela) {
