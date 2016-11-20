@@ -329,7 +329,7 @@ public class GeraMongo {
                     }
                 }
                 mongoString += "db." + R_table.get(i) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(i) +
-                        "},{$set:{" + tabela + ":[";
+                        "},{$set:{" + tabela.substring(4,tabela.length()).toLowerCase() + ":[";
                 for (int k = 0; k < tmpRef.size(); k++){
                     if(k == 0)
                         mongoString += tmpRef.get(k);
