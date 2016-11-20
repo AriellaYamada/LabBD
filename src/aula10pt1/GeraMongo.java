@@ -80,7 +80,7 @@ public class GeraMongo {
             getUniques(tabela);
             selectStar(tabela, 1);
             montaIndex(tabela);
-            //montaString(tabela);
+            montaString(tabela);
         }
         if (flag == 1) {
             pegarNomesDeTabelas(tabela);
@@ -310,7 +310,8 @@ public class GeraMongo {
                 }
             }
             for (int j = 0; j < tmp.colunas.size(); j++) {
-                mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
+                if(tmp.valores.get(j) != null && tmp.valores.get(j).indexOf("null") == -1)
+                    mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
             }
             mongoString += "})\n";
         }
@@ -320,23 +321,27 @@ public class GeraMongo {
     public void montaStringNN(String tabela) {
         String mongoString = "";
         for (int i = 0; i < R_table.size(); i++) {
+            ArrayList<String> tmpTupla = new ArrayList();
             for (int j = 0; j < arrayTabela.size(); j++){
                 ArrayList<String> tmpRef = new ArrayList();
-                for (int k = 0; k < arrayTabela.size(); k++) {
-                    if(arrayTabela.get(k).fkvalor == arrayTabela.get(j).fkvalor && 
-                            tmpRef.indexOf(arrayTabela.get(k).fkvalor.get(i)) == -1){
-                        tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
+                if (tmpTupla.indexOf(arrayTabela.get(j).fkvalor.get(i)) == -1) {
+                    tmpTupla.add(arrayTabela.get(j).fkvalor.get(i));
+                    for (int k = 0; k < arrayTabela.size(); k++) {
+                        if(arrayTabela.get(k).fkvalor.get(i) == arrayTabela.get(j).fkvalor.get(i) && 
+                            tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(0)) == -1){
+                                tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
+                        }
                     }
+                    mongoString += "db." + R_table.get(i) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(i) +
+                            "},{$set:{" + tabela.substring(4,tabela.length()).toLowerCase() + ":[";
+                    for (int k = 0; k < tmpRef.size(); k++){
+                        if(k == 0)
+                            mongoString += tmpRef.get(k);
+                        else
+                            mongoString += "," + tmpRef.get(k);
+                    }
+                    mongoString += "]}})\n";                
                 }
-                mongoString += "db." + R_table.get(i) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(i) +
-                        "},{$set:{" + tabela.substring(4,tabela.length()).toLowerCase() + ":[";
-                for (int k = 0; k < tmpRef.size(); k++){
-                    if(k == 0)
-                        mongoString += tmpRef.get(k);
-                    else
-                        mongoString += "," + tmpRef.get(k);
-                }
-                mongoString += "]}})\n";                
             }
         }
         System.out.println(mongoString);
@@ -365,7 +370,8 @@ public class GeraMongo {
                 }
             }
             for (int j = 0; j < tmp.colunas.size(); j++) {
-                mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
+                if(tmp.valores.get(j) != null)
+                    mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
             }
 
             mongoString += ",\n" + embedTabela + ":{";
@@ -376,7 +382,8 @@ public class GeraMongo {
                         mongoString += arrayTabelaEmbedded.get(j).pk.get(k) + ":" + arrayTabelaEmbedded.get(j).pkvalor.get(k);
                     }
                     for (int k = 0; k < arrayTabelaEmbedded.get(j).colunas.size(); k++) {
-                        mongoString += ",\n" + arrayTabelaEmbedded.get(j).colunas.get(k) + ":" + arrayTabelaEmbedded.get(j).valores.get(k);
+                        if(arrayTabelaEmbedded.get(j).valores.get(k) != null)
+                            mongoString += ",\n" + arrayTabelaEmbedded.get(j).colunas.get(k) + ":" + arrayTabelaEmbedded.get(j).valores.get(k);
                     }
                     break;
                 }
