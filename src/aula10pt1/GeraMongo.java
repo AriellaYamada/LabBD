@@ -65,8 +65,6 @@ public class GeraMongo {
             flag = 2;
             StringTokenizer stok = new StringTokenizer(tabela, " ");
             this.tabela = stok.nextToken().trim();
-            System.out.println(this.tabela);
-            //return;
         } else if (tabela.indexOf("--nn") != -1) {
             flag = 3;
             StringTokenizer stok = new StringTokenizer(tabela, " ");
@@ -378,7 +376,7 @@ public class GeraMongo {
                 }
             }
             for (int j = 0; j < tmp.colunas.size(); j++) {
-                if(tmp.valores.get(j) != null)
+                if(tmp.valores.get(j) != null && !tmp.valores.get(j).contains("null"))
                     mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
             }
 
@@ -409,7 +407,6 @@ public class GeraMongo {
         Tabela tmp = null;
         for (int i = 0; i < arrayTabela.size(); i++) {
             tmp = arrayTabela.get(i);
-            //mongoString += "var doc = db." + embedTabela + ".findOne({_id:\"" + tmp.fkvalor.get(0) + "\"})\n";
             mongoString += "db." + tabela + ".insert({\n";
             for (int j = 0; j < tmp.pkvalor.size(); j++) {
                 if (j == 0) {
@@ -426,16 +423,19 @@ public class GeraMongo {
                 }
             }
             for (int j = 0; j < tmp.colunas.size(); j++) {
+                if(tmp.valores.get(j) != null && !tmp.valores.get(j).contains("null"))
                 mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
             }
             String tmpTabela = "";
             for (int j = 0; j < R_table.size(); j++) {
-                if(tmpTabela.equals(R_table.get(j))) {
-                    mongoString += "_" + tmp.fkvalor.get(j);
-                } else {
-                    mongoString += ",\n" + R_table.get(j) + ": " + tmp.fkvalor.get(j);
+                if(tmp.fkvalor.get(j) != null && !tmp.fkvalor.get(j).contains("null")) {
+                    if (tmpTabela.equals(R_table.get(j))) {
+                        mongoString += "_" + tmp.fkvalor.get(j);
+                    } else {
+                        mongoString += ",\n" + R_table.get(j) + ": " + tmp.fkvalor.get(j);
+                    }
+                    tmpTabela = R_table.get(j);
                 }
-                tmpTabela = R_table.get(j);
             }
             mongoString += "})\n";
         }
