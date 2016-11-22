@@ -69,6 +69,10 @@ public class GeraMongo {
             flag = 3;
             StringTokenizer stok = new StringTokenizer(tabela, " ");
             this.tabela = stok.nextToken().trim();
+        } else if (tabela.indexOf("--indice") != -1) {
+            flag = 4;
+            StringTokenizer stok = new StringTokenizer(tabela, " ");
+            this.tabela = stok.nextToken().trim();
         } else {
             flag = 0;
             this.tabela = tabela;
@@ -82,7 +86,6 @@ public class GeraMongo {
             getUniques(tabela);
             selectStar(tabela, 1);
             montaString(tabela);
-            //montaIndex(tabela);
         }
         if (flag == 1) {
             pegarNomesDeTabelas(tabela);
@@ -98,7 +101,6 @@ public class GeraMongo {
             selectStar(embedTabela, 2);
 
             montaStringEmbedded(tabela);
-            //montaIndex(tabela);
         }
         if (flag == 2) {
             pegarNomesDeTabelas(tabela);
@@ -107,7 +109,6 @@ public class GeraMongo {
             getFks(tabela);
             selectStar(tabela, 1);
             montaStringRef(tabela);
-            //montaIndex(tabela);
         }
         if (flag == 3) {
             pegarNomesDeTabelas(tabela);
@@ -117,7 +118,16 @@ public class GeraMongo {
             selectStar(tabela, 1);
             montaString(tabela);
             montaStringNN(tabela);
-            //montaIndex(tabela);
+            
+        }
+        if (flag == 4) {
+            pegarNomesDeTabelas(tabela);
+            selectNomeColuna(tabela);
+            getPk(tabela);
+            getFks(tabela);
+            getUniques(tabela);
+            selectStar(tabela, 1);
+            montaIndex(tabela);
         }
     }
 
@@ -179,6 +189,7 @@ public class GeraMongo {
             }
         }
         mongoString += "} , {unique : true})";
+        fileWriter(mongoString);
         System.out.println(mongoString);
     }
 

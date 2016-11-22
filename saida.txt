@@ -3038,3 +3038,5 @@ PERIODOFIM:"2006-02-10 00:00:00.0",
 ORGAOPESQUISA:"IBOPE"})
 
 
+db.LE01ESTADO.createIndex({NOME: 1} , {unique : true})
+db.LE04BAIRRO.createIndex({CEP: 1} , {unique : true})
