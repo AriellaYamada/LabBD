@@ -3035,3 +3035,3047 @@ PERIODOFIM:"2006-02-10 00:00:00.0",
 ORGAOPESQUISA:"IBOPE"})
 
 
+db.createCollection("LE04BAIRRO")
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Carlos_SP,
+CEP:111111,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos"_SP,
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Jardim Santa Paula_Sao Carlos_SP,
+CEP:111112,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos"_SP,
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Jardim Bandeirantes_Sao Carlos_SP,
+CEP:111113,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos"_SP,
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Cidade Aracy_Sao Carlos_SP,
+CEP:111114,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos"_SP,
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Paulo_SP,
+CEP:111115,
+NROZONA:2,
+LE02CIDADE: "Sao Paulo"_SP,
+LE03ZONA: 2})
+db.LE04BAIRRO.insert({
+_id:"Pinheiros_Sao Paulo_SP,
+CEP:111116,
+NROZONA:3,
+LE02CIDADE: "Sao Paulo"_SP,
+LE03ZONA: 3})
+db.LE04BAIRRO.insert({
+_id:"Higienopolis_Sao Paulo_SP,
+CEP:111117,
+NROZONA:4,
+LE02CIDADE: "Sao Paulo"_SP,
+LE03ZONA: 4})
+db.LE04BAIRRO.insert({
+_id:"Itaquera_Sao Paulo_SP,
+CEP:111118,
+NROZONA:5,
+LE02CIDADE: "Sao Paulo"_SP,
+LE03ZONA: 5})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Caetano_SP,
+CEP:111119,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano"_SP,
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Caxingui_Sao Caetano_SP,
+CEP:111121,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano"_SP,
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Jardim Vitoria_Sao Caetano_SP,
+CEP:111131,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano"_SP,
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Serpa_Sao Caetano_SP,
+CEP:111561,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano"_SP,
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Jardim Itauna_Campinas_SP,
+CEP:111141,
+NROZONA:7,
+LE02CIDADE: "Campinas"_SP,
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Jardim dos Eucaliptos_Campinas_SP,
+CEP:111151,
+NROZONA:7,
+LE02CIDADE: "Campinas"_SP,
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Campinas_SP,
+CEP:111161,
+NROZONA:7,
+LE02CIDADE: "Campinas"_SP,
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Centro_Campinas_SP,
+CEP:111171,
+NROZONA:7,
+LE02CIDADE: "Campinas"_SP,
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Roque_SP,
+CEP:111181,
+NROZONA:8,
+LE02CIDADE: "Sao Roque"_SP,
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Vila Rosina_Sao Roque_SP,
+CEP:111191,
+NROZONA:8,
+LE02CIDADE: "Sao Roque"_SP,
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Pirituba_Sao Roque_SP,
+CEP:111211,
+NROZONA:8,
+LE02CIDADE: "Sao Roque"_SP,
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Nova Sao Roque_Sao Roque_SP,
+CEP:111311,
+NROZONA:8,
+LE02CIDADE: "Sao Roque"_SP,
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Centro_Florianopolis_SC,
+CEP:111411,
+NROZONA:9,
+LE02CIDADE: "Florianopolis"_SC,
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Tucuruvi_Florianopolis_SC,
+CEP:111511,
+NROZONA:9,
+LE02CIDADE: "Florianopolis"_SC,
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Jabaquara_Florianopolis_SC,
+CEP:111611,
+NROZONA:9,
+LE02CIDADE: "Florianopolis"_SC,
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Jaragua_Florianopolis_SC,
+CEP:111711,
+NROZONA:9,
+LE02CIDADE: "Florianopolis"_SC,
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Vila Clarisse_Fraiburgo_SC,
+CEP:111811,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo"_SC,
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Vila Aurora_Fraiburgo_SC,
+CEP:111911,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo"_SC,
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Agua Branca_Fraiburgo_SC,
+CEP:112111,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo"_SC,
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Centro_Fraiburgo_SC,
+CEP:113111,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo"_SC,
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Barra da Tijuca_Joinville_SC,
+CEP:114111,
+NROZONA:11,
+LE02CIDADE: "Joinville"_SC,
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Barra Funda_Joinville_SC,
+CEP:115111,
+NROZONA:11,
+LE02CIDADE: "Joinville"_SC,
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Belem_Joinville_SC,
+CEP:116111,
+NROZONA:11,
+LE02CIDADE: "Joinville"_SC,
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Centro_Joinville_SC,
+CEP:117111,
+NROZONA:11,
+LE02CIDADE: "Joinville"_SC,
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Bras_Blumenau_SC,
+CEP:118111,
+NROZONA:12,
+LE02CIDADE: "Blumenau"_SC,
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Bresser_Blumenau_SC,
+CEP:119111,
+NROZONA:12,
+LE02CIDADE: "Blumenau"_SC,
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Mooca_Blumenau_SC,
+CEP:121111,
+NROZONA:12,
+LE02CIDADE: "Blumenau"_SC,
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Centro_Blumenau_SC,
+CEP:131111,
+NROZONA:12,
+LE02CIDADE: "Blumenau"_SC,
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Tiete_Crisciuma_SC,
+CEP:141111,
+NROZONA:31,
+LE02CIDADE: "Crisciuma"_SC,
+LE03ZONA: 31})
+db.LE04BAIRRO.insert({
+_id:"Armenia_Crisciuma_SC,
+CEP:151111,
+NROZONA:31,
+LE02CIDADE: "Crisciuma"_SC,
+LE03ZONA: 31})
+db.LE04BAIRRO.insert({
+_id:"Vila Madalena_Crisciuma_SC,
+CEP:161111,
+NROZONA:32,
+LE02CIDADE: "Crisciuma"_SC,
+LE03ZONA: 32})
+db.LE04BAIRRO.insert({
+_id:"Centro_Crisciuma_SC,
+CEP:171111,
+NROZONA:32,
+LE02CIDADE: "Crisciuma"_SC,
+LE03ZONA: 32})
+db.LE04BAIRRO.insert({
+_id:"Centro_Palmas_TO,
+CEP:181111,
+NROZONA:33,
+LE02CIDADE: "Palmas"_TO,
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Grajau_Palmas_TO,
+CEP:191111,
+NROZONA:33,
+LE02CIDADE: "Palmas"_TO,
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Lapa_Palmas_TO,
+CEP:211111,
+NROZONA:33,
+LE02CIDADE: "Palmas"_TO,
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Morumbi_Palmas_TO,
+CEP:232111,
+NROZONA:34,
+LE02CIDADE: "Palmas"_TO,
+LE03ZONA: 34})
+db.LE04BAIRRO.insert({
+_id:"Centro_Guaral_TO,
+CEP:311111,
+NROZONA:35,
+LE02CIDADE: "Guaral"_TO,
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Ceasa_Guaral_TO,
+CEP:411111,
+NROZONA:35,
+LE02CIDADE: "Guaral"_TO,
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Penha_Guaral_TO,
+CEP:511111,
+NROZONA:35,
+LE02CIDADE: "Guaral"_TO,
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Castelo_Guaral_TO,
+CEP:611111,
+NROZONA:35,
+LE02CIDADE: "Guaral"_TO,
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Centro_Araguaina_TO,
+CEP:711111,
+NROZONA:36,
+LE02CIDADE: "Araguaina"_TO,
+LE03ZONA: 36})
+db.LE04BAIRRO.insert({
+_id:"Caraguatatuba_Araguaina_TO,
+CEP:811111,
+NROZONA:36,
+LE02CIDADE: "Araguaina"_TO,
+LE03ZONA: 36})
+db.LE04BAIRRO.insert({
+_id:"Maresias_Araguaina_TO,
+CEP:911111,
+NROZONA:37,
+LE02CIDADE: "Araguaina"_TO,
+LE03ZONA: 37})
+db.LE04BAIRRO.insert({
+_id:"Praia Grande_Araguaina_TO,
+CEP:111122,
+NROZONA:37,
+LE02CIDADE: "Araguaina"_TO,
+LE03ZONA: 37})
+db.LE04BAIRRO.insert({
+_id:"Centro_Porto Nacional_TO,
+CEP:111123,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional"_TO,
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Tainha_Porto Nacional_TO,
+CEP:111124,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional"_TO,
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Jardinopolis_Porto Nacional_TO,
+CEP:111125,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional"_TO,
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Centro 2_Porto Nacional_TO,
+CEP:111126,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional"_TO,
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Centro_Araguatins_TO,
+CEP:111127,
+NROZONA:13,
+LE02CIDADE: "Araguatins"_TO,
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Nova Araguatins_Araguatins_TO,
+CEP:111128,
+NROZONA:13,
+LE02CIDADE: "Araguatins"_TO,
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Francisco Morato_Araguatins_TO,
+CEP:111129,
+NROZONA:13,
+LE02CIDADE: "Araguatins"_TO,
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Vila Rosina_Araguatins_TO,
+CEP:111130,
+NROZONA:13,
+LE02CIDADE: "Araguatins"_TO,
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Centro_Fortaleza_CE,
+CEP:111132,
+NROZONA:14,
+LE02CIDADE: "Fortaleza"_CE,
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Nova Fortaleza_Fortaleza_CE,
+CEP:111133,
+NROZONA:14,
+LE02CIDADE: "Fortaleza"_CE,
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Sao Carlos_Fortaleza_CE,
+CEP:111134,
+NROZONA:14,
+LE02CIDADE: "Fortaleza"_CE,
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Aracatuba_Fortaleza_CE,
+CEP:111135,
+NROZONA:14,
+LE02CIDADE: "Fortaleza"_CE,
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Centro_Caucaia_CE,
+CEP:111136,
+NROZONA:14,
+LE02CIDADE: "Caucaia"_CE,
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Presidente Prudente_Caucaia_CE,
+CEP:111137,
+NROZONA:14,
+LE02CIDADE: "Caucaia"_CE,
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Vila Costa_Caucaia_CE,
+CEP:111138,
+NROZONA:14,
+LE02CIDADE: "Caucaia"_CE,
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Nova Caucaia_Caucaia_CE,
+CEP:111139,
+NROZONA:14,
+LE02CIDADE: "Caucaia"_CE,
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sobral_CE,
+CEP:111140,
+NROZONA:15,
+LE02CIDADE: "Sobral"_CE,
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Santa Paula_Sobral_CE,
+CEP:111142,
+NROZONA:15,
+LE02CIDADE: "Sobral"_CE,
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Nova Era_Sobral_CE,
+CEP:111143,
+NROZONA:15,
+LE02CIDADE: "Sobral"_CE,
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Esperanca_Sobral_CE,
+CEP:111144,
+NROZONA:15,
+LE02CIDADE: "Sobral"_CE,
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Centro_Crato_CE,
+CEP:111145,
+NROZONA:16,
+LE02CIDADE: "Crato"_CE,
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Jardins II_Crato_CE,
+CEP:111146,
+NROZONA:16,
+LE02CIDADE: "Crato"_CE,
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Jardins I_Crato_CE,
+CEP:111147,
+NROZONA:16,
+LE02CIDADE: "Crato"_CE,
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Cratinopolis_Crato_CE,
+CEP:111148,
+NROZONA:16,
+LE02CIDADE: "Crato"_CE,
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Centro_Juazeiro do Norte_CE,
+CEP:111149,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte"_CE,
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Vilinha_Juazeiro do Norte_CE,
+CEP:111150,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte"_CE,
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Juazeiro do Norte_CE,
+CEP:111152,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte"_CE,
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Parque Central_Juazeiro do Norte_CE,
+CEP:111153,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte"_CE,
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Centro_Manaus_AM,
+CEP:111154,
+NROZONA:18,
+LE02CIDADE: "Manaus"_AM,
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Vila Nova_Manaus_AM,
+CEP:111155,
+NROZONA:18,
+LE02CIDADE: "Manaus"_AM,
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Vila Rica_Manaus_AM,
+CEP:111156,
+NROZONA:18,
+LE02CIDADE: "Manaus"_AM,
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Jardim Vitoria_Manaus_AM,
+CEP:111157,
+NROZONA:18,
+LE02CIDADE: "Manaus"_AM,
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Centro_Parintins_AM,
+CEP:111158,
+NROZONA:19,
+LE02CIDADE: "Parintins"_AM,
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Ouro Preto_Parintins_AM,
+CEP:111159,
+NROZONA:19,
+LE02CIDADE: "Parintins"_AM,
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Jardinopolis_Parintins_AM,
+CEP:111160,
+NROZONA:19,
+LE02CIDADE: "Parintins"_AM,
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Augusta_Parintins_AM,
+CEP:111162,
+NROZONA:19,
+LE02CIDADE: "Parintins"_AM,
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Centro_Humaita_AM,
+CEP:111163,
+NROZONA:20,
+LE02CIDADE: "Humaita"_AM,
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Vila Seixas_Humaita_AM,
+CEP:111164,
+NROZONA:20,
+LE02CIDADE: "Humaita"_AM,
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Parque Vitoria_Humaita_AM,
+CEP:111165,
+NROZONA:20,
+LE02CIDADE: "Humaita"_AM,
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Parque 120_Humaita_AM,
+CEP:111166,
+NROZONA:20,
+LE02CIDADE: "Humaita"_AM,
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Centro_Coari_AM,
+CEP:111167,
+NROZONA:21,
+LE02CIDADE: "Coari"_AM,
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Oscar Freire_Coari_AM,
+CEP:111168,
+NROZONA:21,
+LE02CIDADE: "Coari"_AM,
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Vila Augusta_Coari_AM,
+CEP:111169,
+NROZONA:21,
+LE02CIDADE: "Coari"_AM,
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Haddock Lobo_Coari_AM,
+CEP:111170,
+NROZONA:21,
+LE02CIDADE: "Coari"_AM,
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Centro_Maues_AM,
+CEP:111172,
+NROZONA:22,
+LE02CIDADE: "Maues"_AM,
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Consolacao_Maues_AM,
+CEP:111173,
+NROZONA:22,
+LE02CIDADE: "Maues"_AM,
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Maues_AM,
+CEP:111174,
+NROZONA:22,
+LE02CIDADE: "Maues"_AM,
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Largo do Paissandu_Maues_AM,
+CEP:111175,
+NROZONA:22,
+LE02CIDADE: "Maues"_AM,
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Centro_Brasilia_DF,
+CEP:111176,
+NROZONA:23,
+LE02CIDADE: "Brasilia"_DF,
+LE03ZONA: 23})
+db.LE04BAIRRO.insert({
+_id:"Praca Ramos_Brasilia_DF,
+CEP:111177,
+NROZONA:23,
+LE02CIDADE: "Brasilia"_DF,
+LE03ZONA: 23})
+db.LE04BAIRRO.insert({
+_id:"Jardim Curuzu_Brasilia_DF,
+CEP:111178,
+NROZONA:24,
+LE02CIDADE: "Brasilia"_DF,
+LE03ZONA: 24})
+db.LE04BAIRRO.insert({
+_id:"Jabaquara_Brasilia_DF,
+CEP:111179,
+NROZONA:24,
+LE02CIDADE: "Brasilia"_DF,
+LE03ZONA: 24})
+db.LE04BAIRRO.insert({
+_id:"Centro_Gama_DF,
+CEP:111180,
+NROZONA:25,
+LE02CIDADE: "Gama"_DF,
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Pinheiros_Gama_DF,
+CEP:111182,
+NROZONA:25,
+LE02CIDADE: "Gama"_DF,
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Caxingui_Gama_DF,
+CEP:111183,
+NROZONA:25,
+LE02CIDADE: "Gama"_DF,
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Butanta_Gama_DF,
+CEP:111184,
+NROZONA:25,
+LE02CIDADE: "Gama"_DF,
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Centro_Ceilandia_DF,
+CEP:111185,
+NROZONA:26,
+LE02CIDADE: "Ceilandia"_DF,
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Alto da Lapa_Ceilandia_DF,
+CEP:111186,
+NROZONA:26,
+LE02CIDADE: "Ceilandia"_DF,
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Jardim Europa_Ceilandia_DF,
+CEP:111187,
+NROZONA:26,
+LE02CIDADE: "Ceilandia"_DF,
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Alphaville_Ceilandia_DF,
+CEP:111188,
+NROZONA:27,
+LE02CIDADE: "Ceilandia"_DF,
+LE03ZONA: 27})
+db.LE04BAIRRO.insert({
+_id:"Centro_Taguatinga_DF,
+CEP:111190,
+NROZONA:28,
+LE02CIDADE: "Taguatinga"_DF,
+LE03ZONA: 28})
+db.LE04BAIRRO.insert({
+_id:"Santa Fe_Taguatinga_DF,
+CEP:111192,
+NROZONA:29,
+LE02CIDADE: "Taguatinga"_DF,
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Araraquara_Taguatinga_DF,
+CEP:111193,
+NROZONA:29,
+LE02CIDADE: "Taguatinga"_DF,
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Rio Claro_Taguatinga_DF,
+CEP:111194,
+NROZONA:29,
+LE02CIDADE: "Taguatinga"_DF,
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sobradinho_DF,
+CEP:111195,
+NROZONA:30,
+LE02CIDADE: "Sobradinho"_DF,
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Jundiai_Sobradinho_DF,
+CEP:111196,
+NROZONA:30,
+LE02CIDADE: "Sobradinho"_DF,
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Barueri_Sobradinho_DF,
+CEP:111197,
+NROZONA:30,
+LE02CIDADE: "Sobradinho"_DF,
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Caieiras_Sobradinho_DF,
+CEP:111198,
+NROZONA:30,
+LE02CIDADE: "Sobradinho"_DF,
+LE03ZONA: 30})
+
+db.createCollection("LE09CARGO")
+db.LE09CARGO.insert({
+_id:1,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Presidente",
+NRODECADEIRAS:1,
+ESFERA:"F"})
+db.LE09CARGO.insert({
+_id:2,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:8,
+NOMEDESCRITIVO:"Senador",
+NRODECADEIRAS:10,
+ESFERA:"F"})
+db.LE09CARGO.insert({
+_id:3,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Deputado Federal",
+NRODECADEIRAS:20,
+ESFERA:"F"})
+db.LE09CARGO.insert({
+_id:4,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Governador",
+NRODECADEIRAS:1,
+ESFERA:"E",
+SIGLAESTADO:"SP",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:5,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Deputado Estadual",
+NRODECADEIRAS:20,
+ESFERA:"E",
+SIGLAESTADO:"SP",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:6,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Governador",
+NRODECADEIRAS:1,
+ESFERA:"E",
+SIGLAESTADO:"SC",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:7,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Deputado Estadual",
+NRODECADEIRAS:20,
+ESFERA:"E",
+SIGLAESTADO:"SC",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:8,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Governador",
+NRODECADEIRAS:1,
+ESFERA:"E",
+SIGLAESTADO:"TO",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:9,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Deputado Estadual",
+NRODECADEIRAS:20,
+ESFERA:"E",
+SIGLAESTADO:"TO",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:10,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Governador",
+NRODECADEIRAS:1,
+ESFERA:"E",
+SIGLAESTADO:"CE",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:11,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Deputado Estadual",
+NRODECADEIRAS:20,
+ESFERA:"E",
+SIGLAESTADO:"CE",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:12,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Governador",
+NRODECADEIRAS:1,
+ESFERA:"E",
+SIGLAESTADO:"AM",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:13,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Deputado Estadual",
+NRODECADEIRAS:20,
+ESFERA:"E",
+SIGLAESTADO:"AM",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:14,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Governador",
+NRODECADEIRAS:1,
+ESFERA:"E",
+SIGLAESTADO:"DF",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:15,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Deputado Estadual",
+NRODECADEIRAS:20,
+ESFERA:"E",
+SIGLAESTADO:"DF",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:16,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Sao Carlos",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Sao Carlos",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:17,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:30,
+ESFERA:"M",
+NOMECIDADE:"Sao Carlos",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Sao Carlos",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:18,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Sao Paulo",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Sao Paulo",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:19,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:30,
+ESFERA:"M",
+NOMECIDADE:"Sao Paulo",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Sao Paulo",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:20,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Sao Caetano",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Sao Caetano",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:21,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:30,
+ESFERA:"M",
+NOMECIDADE:"Sao Caetano",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Sao Caetano",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:22,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Campinas",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Campinas",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:23,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:30,
+ESFERA:"M",
+NOMECIDADE:"Campinas",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Campinas",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:24,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Sao Roque",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Sao Roque",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:25,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:30,
+ESFERA:"M",
+NOMECIDADE:"Sao Roque",
+SIGLAESTADO:"SP",
+LE01ESTADO: "Sao Roque",
+LE02CIDADE: "SP"})
+db.LE09CARGO.insert({
+_id:26,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Florianopolis",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Florianopolis",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:27,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:40,
+ESFERA:"M",
+NOMECIDADE:"Florianopolis",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Florianopolis",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:28,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Fraiburgo",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Fraiburgo",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:29,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:40,
+ESFERA:"M",
+NOMECIDADE:"Fraiburgo",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Fraiburgo",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:30,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Joinville",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Joinville",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:31,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:40,
+ESFERA:"M",
+NOMECIDADE:"Joinville",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Joinville",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:32,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Blumenau",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Blumenau",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:33,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:40,
+ESFERA:"M",
+NOMECIDADE:"Blumenau",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Blumenau",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:34,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Crisciuma",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Crisciuma",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:35,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:40,
+ESFERA:"M",
+NOMECIDADE:"Crisciuma",
+SIGLAESTADO:"SC",
+LE01ESTADO: "Crisciuma",
+LE02CIDADE: "SC"})
+db.LE09CARGO.insert({
+_id:36,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Palmas",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Palmas",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:37,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:20,
+ESFERA:"M",
+NOMECIDADE:"Palmas",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Palmas",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:38,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Guaral",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Guaral",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:75,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:20,
+ESFERA:"M",
+NOMECIDADE:"Guaral",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Guaral",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:39,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Araguaina",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Araguaina",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:40,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:20,
+ESFERA:"M",
+NOMECIDADE:"Araguaina",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Araguaina",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:41,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Porto Nacional",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Porto Nacional",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:42,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:20,
+ESFERA:"M",
+NOMECIDADE:"Porto Nacional",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Porto Nacional",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:43,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Araguatins",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Araguatins",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:44,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:20,
+ESFERA:"M",
+NOMECIDADE:"Araguatins",
+SIGLAESTADO:"TO",
+LE01ESTADO: "Araguatins",
+LE02CIDADE: "TO"})
+db.LE09CARGO.insert({
+_id:45,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Fortaleza",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Fortaleza",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:46,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:25,
+ESFERA:"M",
+NOMECIDADE:"Fortaleza",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Fortaleza",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:47,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Caucaia",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Caucaia",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:48,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:25,
+ESFERA:"M",
+NOMECIDADE:"Caucaia",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Caucaia",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:49,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Sobral",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Sobral",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:50,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:25,
+ESFERA:"M",
+NOMECIDADE:"Sobral",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Sobral",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:51,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Crato",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Crato",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:52,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:25,
+ESFERA:"M",
+NOMECIDADE:"Crato",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Crato",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:53,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Juazeiro do Norte",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Juazeiro do Norte",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:54,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:25,
+ESFERA:"M",
+NOMECIDADE:"Juazeiro do Norte",
+SIGLAESTADO:"CE",
+LE01ESTADO: "Juazeiro do Norte",
+LE02CIDADE: "CE"})
+db.LE09CARGO.insert({
+_id:55,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Manaus",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Manaus",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:56,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:45,
+ESFERA:"M",
+NOMECIDADE:"Manaus",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Manaus",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:57,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Parintins",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Parintins",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:58,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:45,
+ESFERA:"M",
+NOMECIDADE:"Parintins",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Parintins",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:59,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Humaita",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Humaita",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:60,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:45,
+ESFERA:"M",
+NOMECIDADE:"Humaita",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Humaita",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:61,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Coari",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Coari",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:62,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:45,
+ESFERA:"M",
+NOMECIDADE:"Coari",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Coari",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:63,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Maues",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Maues",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:64,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:45,
+ESFERA:"M",
+NOMECIDADE:"Maues",
+SIGLAESTADO:"AM",
+LE01ESTADO: "Maues",
+LE02CIDADE: "AM"})
+db.LE09CARGO.insert({
+_id:65,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Brasilia",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Brasilia",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:66,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:39,
+ESFERA:"M",
+NOMECIDADE:"Brasilia",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Brasilia",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:67,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Gama",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Gama",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:68,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:39,
+ESFERA:"M",
+NOMECIDADE:"Gama",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Gama",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:69,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Ceilandia",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Ceilandia",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:70,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:39,
+ESFERA:"M",
+NOMECIDADE:"Ceilandia",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Ceilandia",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:71,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Taguatinga",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Taguatinga",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:72,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:39,
+ESFERA:"M",
+NOMECIDADE:"Taguatinga",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Taguatinga",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:73,
+POSSUIVICE:1,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Prefeito",
+NRODECADEIRAS:1,
+ESFERA:"M",
+NOMECIDADE:"Sobradinho",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Sobradinho",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:74,
+POSSUIVICE:0,
+ANOBASE:2014,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Vereador",
+NRODECADEIRAS:39,
+ESFERA:"M",
+NOMECIDADE:"Sobradinho",
+SIGLAESTADO:"DF",
+LE01ESTADO: "Sobradinho",
+LE02CIDADE: "DF"})
+db.LE09CARGO.insert({
+_id:76,
+POSSUIVICE:1,
+ANOBASE:2002,
+ANOSMANDATO:4,
+NOMEDESCRITIVO:"Presidente2002",
+NRODECADEIRAS:1,
+ESFERA:"F"})
+
+db.createCollection("LEO4BAIRRO")
+
+db.createCollection("LEO4BAIRRO")
+
+db.createCollection("LE04BAIRRO")
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Carlos_SP,
+CEP:111111,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos_SP",
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Jardim Santa Paula_Sao Carlos_SP,
+CEP:111112,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos_SP",
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Jardim Bandeirantes_Sao Carlos_SP,
+CEP:111113,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos_SP",
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Cidade Aracy_Sao Carlos_SP,
+CEP:111114,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos_SP",
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Paulo_SP,
+CEP:111115,
+NROZONA:2,
+LE02CIDADE: "Sao Paulo_SP",
+LE03ZONA: 2})
+db.LE04BAIRRO.insert({
+_id:"Pinheiros_Sao Paulo_SP,
+CEP:111116,
+NROZONA:3,
+LE02CIDADE: "Sao Paulo_SP",
+LE03ZONA: 3})
+db.LE04BAIRRO.insert({
+_id:"Higienopolis_Sao Paulo_SP,
+CEP:111117,
+NROZONA:4,
+LE02CIDADE: "Sao Paulo_SP",
+LE03ZONA: 4})
+db.LE04BAIRRO.insert({
+_id:"Itaquera_Sao Paulo_SP,
+CEP:111118,
+NROZONA:5,
+LE02CIDADE: "Sao Paulo_SP",
+LE03ZONA: 5})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Caetano_SP,
+CEP:111119,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano_SP",
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Caxingui_Sao Caetano_SP,
+CEP:111121,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano_SP",
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Jardim Vitoria_Sao Caetano_SP,
+CEP:111131,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano_SP",
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Serpa_Sao Caetano_SP,
+CEP:111561,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano_SP",
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Jardim Itauna_Campinas_SP,
+CEP:111141,
+NROZONA:7,
+LE02CIDADE: "Campinas_SP",
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Jardim dos Eucaliptos_Campinas_SP,
+CEP:111151,
+NROZONA:7,
+LE02CIDADE: "Campinas_SP",
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Campinas_SP,
+CEP:111161,
+NROZONA:7,
+LE02CIDADE: "Campinas_SP",
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Centro_Campinas_SP,
+CEP:111171,
+NROZONA:7,
+LE02CIDADE: "Campinas_SP",
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Roque_SP,
+CEP:111181,
+NROZONA:8,
+LE02CIDADE: "Sao Roque_SP",
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Vila Rosina_Sao Roque_SP,
+CEP:111191,
+NROZONA:8,
+LE02CIDADE: "Sao Roque_SP",
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Pirituba_Sao Roque_SP,
+CEP:111211,
+NROZONA:8,
+LE02CIDADE: "Sao Roque_SP",
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Nova Sao Roque_Sao Roque_SP,
+CEP:111311,
+NROZONA:8,
+LE02CIDADE: "Sao Roque_SP",
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Centro_Florianopolis_SC,
+CEP:111411,
+NROZONA:9,
+LE02CIDADE: "Florianopolis_SC",
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Tucuruvi_Florianopolis_SC,
+CEP:111511,
+NROZONA:9,
+LE02CIDADE: "Florianopolis_SC",
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Jabaquara_Florianopolis_SC,
+CEP:111611,
+NROZONA:9,
+LE02CIDADE: "Florianopolis_SC",
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Jaragua_Florianopolis_SC,
+CEP:111711,
+NROZONA:9,
+LE02CIDADE: "Florianopolis_SC",
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Vila Clarisse_Fraiburgo_SC,
+CEP:111811,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo_SC",
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Vila Aurora_Fraiburgo_SC,
+CEP:111911,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo_SC",
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Agua Branca_Fraiburgo_SC,
+CEP:112111,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo_SC",
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Centro_Fraiburgo_SC,
+CEP:113111,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo_SC",
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Barra da Tijuca_Joinville_SC,
+CEP:114111,
+NROZONA:11,
+LE02CIDADE: "Joinville_SC",
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Barra Funda_Joinville_SC,
+CEP:115111,
+NROZONA:11,
+LE02CIDADE: "Joinville_SC",
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Belem_Joinville_SC,
+CEP:116111,
+NROZONA:11,
+LE02CIDADE: "Joinville_SC",
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Centro_Joinville_SC,
+CEP:117111,
+NROZONA:11,
+LE02CIDADE: "Joinville_SC",
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Bras_Blumenau_SC,
+CEP:118111,
+NROZONA:12,
+LE02CIDADE: "Blumenau_SC",
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Bresser_Blumenau_SC,
+CEP:119111,
+NROZONA:12,
+LE02CIDADE: "Blumenau_SC",
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Mooca_Blumenau_SC,
+CEP:121111,
+NROZONA:12,
+LE02CIDADE: "Blumenau_SC",
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Centro_Blumenau_SC,
+CEP:131111,
+NROZONA:12,
+LE02CIDADE: "Blumenau_SC",
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Tiete_Crisciuma_SC,
+CEP:141111,
+NROZONA:31,
+LE02CIDADE: "Crisciuma_SC",
+LE03ZONA: 31})
+db.LE04BAIRRO.insert({
+_id:"Armenia_Crisciuma_SC,
+CEP:151111,
+NROZONA:31,
+LE02CIDADE: "Crisciuma_SC",
+LE03ZONA: 31})
+db.LE04BAIRRO.insert({
+_id:"Vila Madalena_Crisciuma_SC,
+CEP:161111,
+NROZONA:32,
+LE02CIDADE: "Crisciuma_SC",
+LE03ZONA: 32})
+db.LE04BAIRRO.insert({
+_id:"Centro_Crisciuma_SC,
+CEP:171111,
+NROZONA:32,
+LE02CIDADE: "Crisciuma_SC",
+LE03ZONA: 32})
+db.LE04BAIRRO.insert({
+_id:"Centro_Palmas_TO,
+CEP:181111,
+NROZONA:33,
+LE02CIDADE: "Palmas_TO",
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Grajau_Palmas_TO,
+CEP:191111,
+NROZONA:33,
+LE02CIDADE: "Palmas_TO",
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Lapa_Palmas_TO,
+CEP:211111,
+NROZONA:33,
+LE02CIDADE: "Palmas_TO",
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Morumbi_Palmas_TO,
+CEP:232111,
+NROZONA:34,
+LE02CIDADE: "Palmas_TO",
+LE03ZONA: 34})
+db.LE04BAIRRO.insert({
+_id:"Centro_Guaral_TO,
+CEP:311111,
+NROZONA:35,
+LE02CIDADE: "Guaral_TO",
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Ceasa_Guaral_TO,
+CEP:411111,
+NROZONA:35,
+LE02CIDADE: "Guaral_TO",
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Penha_Guaral_TO,
+CEP:511111,
+NROZONA:35,
+LE02CIDADE: "Guaral_TO",
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Castelo_Guaral_TO,
+CEP:611111,
+NROZONA:35,
+LE02CIDADE: "Guaral_TO",
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Centro_Araguaina_TO,
+CEP:711111,
+NROZONA:36,
+LE02CIDADE: "Araguaina_TO",
+LE03ZONA: 36})
+db.LE04BAIRRO.insert({
+_id:"Caraguatatuba_Araguaina_TO,
+CEP:811111,
+NROZONA:36,
+LE02CIDADE: "Araguaina_TO",
+LE03ZONA: 36})
+db.LE04BAIRRO.insert({
+_id:"Maresias_Araguaina_TO,
+CEP:911111,
+NROZONA:37,
+LE02CIDADE: "Araguaina_TO",
+LE03ZONA: 37})
+db.LE04BAIRRO.insert({
+_id:"Praia Grande_Araguaina_TO,
+CEP:111122,
+NROZONA:37,
+LE02CIDADE: "Araguaina_TO",
+LE03ZONA: 37})
+db.LE04BAIRRO.insert({
+_id:"Centro_Porto Nacional_TO,
+CEP:111123,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional_TO",
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Tainha_Porto Nacional_TO,
+CEP:111124,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional_TO",
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Jardinopolis_Porto Nacional_TO,
+CEP:111125,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional_TO",
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Centro 2_Porto Nacional_TO,
+CEP:111126,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional_TO",
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Centro_Araguatins_TO,
+CEP:111127,
+NROZONA:13,
+LE02CIDADE: "Araguatins_TO",
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Nova Araguatins_Araguatins_TO,
+CEP:111128,
+NROZONA:13,
+LE02CIDADE: "Araguatins_TO",
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Francisco Morato_Araguatins_TO,
+CEP:111129,
+NROZONA:13,
+LE02CIDADE: "Araguatins_TO",
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Vila Rosina_Araguatins_TO,
+CEP:111130,
+NROZONA:13,
+LE02CIDADE: "Araguatins_TO",
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Centro_Fortaleza_CE,
+CEP:111132,
+NROZONA:14,
+LE02CIDADE: "Fortaleza_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Nova Fortaleza_Fortaleza_CE,
+CEP:111133,
+NROZONA:14,
+LE02CIDADE: "Fortaleza_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Sao Carlos_Fortaleza_CE,
+CEP:111134,
+NROZONA:14,
+LE02CIDADE: "Fortaleza_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Aracatuba_Fortaleza_CE,
+CEP:111135,
+NROZONA:14,
+LE02CIDADE: "Fortaleza_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Centro_Caucaia_CE,
+CEP:111136,
+NROZONA:14,
+LE02CIDADE: "Caucaia_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Presidente Prudente_Caucaia_CE,
+CEP:111137,
+NROZONA:14,
+LE02CIDADE: "Caucaia_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Vila Costa_Caucaia_CE,
+CEP:111138,
+NROZONA:14,
+LE02CIDADE: "Caucaia_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Nova Caucaia_Caucaia_CE,
+CEP:111139,
+NROZONA:14,
+LE02CIDADE: "Caucaia_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sobral_CE,
+CEP:111140,
+NROZONA:15,
+LE02CIDADE: "Sobral_CE",
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Santa Paula_Sobral_CE,
+CEP:111142,
+NROZONA:15,
+LE02CIDADE: "Sobral_CE",
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Nova Era_Sobral_CE,
+CEP:111143,
+NROZONA:15,
+LE02CIDADE: "Sobral_CE",
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Esperanca_Sobral_CE,
+CEP:111144,
+NROZONA:15,
+LE02CIDADE: "Sobral_CE",
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Centro_Crato_CE,
+CEP:111145,
+NROZONA:16,
+LE02CIDADE: "Crato_CE",
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Jardins II_Crato_CE,
+CEP:111146,
+NROZONA:16,
+LE02CIDADE: "Crato_CE",
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Jardins I_Crato_CE,
+CEP:111147,
+NROZONA:16,
+LE02CIDADE: "Crato_CE",
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Cratinopolis_Crato_CE,
+CEP:111148,
+NROZONA:16,
+LE02CIDADE: "Crato_CE",
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Centro_Juazeiro do Norte_CE,
+CEP:111149,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte_CE",
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Vilinha_Juazeiro do Norte_CE,
+CEP:111150,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte_CE",
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Juazeiro do Norte_CE,
+CEP:111152,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte_CE",
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Parque Central_Juazeiro do Norte_CE,
+CEP:111153,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte_CE",
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Centro_Manaus_AM,
+CEP:111154,
+NROZONA:18,
+LE02CIDADE: "Manaus_AM",
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Vila Nova_Manaus_AM,
+CEP:111155,
+NROZONA:18,
+LE02CIDADE: "Manaus_AM",
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Vila Rica_Manaus_AM,
+CEP:111156,
+NROZONA:18,
+LE02CIDADE: "Manaus_AM",
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Jardim Vitoria_Manaus_AM,
+CEP:111157,
+NROZONA:18,
+LE02CIDADE: "Manaus_AM",
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Centro_Parintins_AM,
+CEP:111158,
+NROZONA:19,
+LE02CIDADE: "Parintins_AM",
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Ouro Preto_Parintins_AM,
+CEP:111159,
+NROZONA:19,
+LE02CIDADE: "Parintins_AM",
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Jardinopolis_Parintins_AM,
+CEP:111160,
+NROZONA:19,
+LE02CIDADE: "Parintins_AM",
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Augusta_Parintins_AM,
+CEP:111162,
+NROZONA:19,
+LE02CIDADE: "Parintins_AM",
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Centro_Humaita_AM,
+CEP:111163,
+NROZONA:20,
+LE02CIDADE: "Humaita_AM",
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Vila Seixas_Humaita_AM,
+CEP:111164,
+NROZONA:20,
+LE02CIDADE: "Humaita_AM",
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Parque Vitoria_Humaita_AM,
+CEP:111165,
+NROZONA:20,
+LE02CIDADE: "Humaita_AM",
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Parque 120_Humaita_AM,
+CEP:111166,
+NROZONA:20,
+LE02CIDADE: "Humaita_AM",
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Centro_Coari_AM,
+CEP:111167,
+NROZONA:21,
+LE02CIDADE: "Coari_AM",
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Oscar Freire_Coari_AM,
+CEP:111168,
+NROZONA:21,
+LE02CIDADE: "Coari_AM",
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Vila Augusta_Coari_AM,
+CEP:111169,
+NROZONA:21,
+LE02CIDADE: "Coari_AM",
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Haddock Lobo_Coari_AM,
+CEP:111170,
+NROZONA:21,
+LE02CIDADE: "Coari_AM",
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Centro_Maues_AM,
+CEP:111172,
+NROZONA:22,
+LE02CIDADE: "Maues_AM",
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Consolacao_Maues_AM,
+CEP:111173,
+NROZONA:22,
+LE02CIDADE: "Maues_AM",
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Maues_AM,
+CEP:111174,
+NROZONA:22,
+LE02CIDADE: "Maues_AM",
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Largo do Paissandu_Maues_AM,
+CEP:111175,
+NROZONA:22,
+LE02CIDADE: "Maues_AM",
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Centro_Brasilia_DF,
+CEP:111176,
+NROZONA:23,
+LE02CIDADE: "Brasilia_DF",
+LE03ZONA: 23})
+db.LE04BAIRRO.insert({
+_id:"Praca Ramos_Brasilia_DF,
+CEP:111177,
+NROZONA:23,
+LE02CIDADE: "Brasilia_DF",
+LE03ZONA: 23})
+db.LE04BAIRRO.insert({
+_id:"Jardim Curuzu_Brasilia_DF,
+CEP:111178,
+NROZONA:24,
+LE02CIDADE: "Brasilia_DF",
+LE03ZONA: 24})
+db.LE04BAIRRO.insert({
+_id:"Jabaquara_Brasilia_DF,
+CEP:111179,
+NROZONA:24,
+LE02CIDADE: "Brasilia_DF",
+LE03ZONA: 24})
+db.LE04BAIRRO.insert({
+_id:"Centro_Gama_DF,
+CEP:111180,
+NROZONA:25,
+LE02CIDADE: "Gama_DF",
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Pinheiros_Gama_DF,
+CEP:111182,
+NROZONA:25,
+LE02CIDADE: "Gama_DF",
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Caxingui_Gama_DF,
+CEP:111183,
+NROZONA:25,
+LE02CIDADE: "Gama_DF",
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Butanta_Gama_DF,
+CEP:111184,
+NROZONA:25,
+LE02CIDADE: "Gama_DF",
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Centro_Ceilandia_DF,
+CEP:111185,
+NROZONA:26,
+LE02CIDADE: "Ceilandia_DF",
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Alto da Lapa_Ceilandia_DF,
+CEP:111186,
+NROZONA:26,
+LE02CIDADE: "Ceilandia_DF",
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Jardim Europa_Ceilandia_DF,
+CEP:111187,
+NROZONA:26,
+LE02CIDADE: "Ceilandia_DF",
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Alphaville_Ceilandia_DF,
+CEP:111188,
+NROZONA:27,
+LE02CIDADE: "Ceilandia_DF",
+LE03ZONA: 27})
+db.LE04BAIRRO.insert({
+_id:"Centro_Taguatinga_DF,
+CEP:111190,
+NROZONA:28,
+LE02CIDADE: "Taguatinga_DF",
+LE03ZONA: 28})
+db.LE04BAIRRO.insert({
+_id:"Santa Fe_Taguatinga_DF,
+CEP:111192,
+NROZONA:29,
+LE02CIDADE: "Taguatinga_DF",
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Araraquara_Taguatinga_DF,
+CEP:111193,
+NROZONA:29,
+LE02CIDADE: "Taguatinga_DF",
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Rio Claro_Taguatinga_DF,
+CEP:111194,
+NROZONA:29,
+LE02CIDADE: "Taguatinga_DF",
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sobradinho_DF,
+CEP:111195,
+NROZONA:30,
+LE02CIDADE: "Sobradinho_DF",
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Jundiai_Sobradinho_DF,
+CEP:111196,
+NROZONA:30,
+LE02CIDADE: "Sobradinho_DF",
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Barueri_Sobradinho_DF,
+CEP:111197,
+NROZONA:30,
+LE02CIDADE: "Sobradinho_DF",
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Caieiras_Sobradinho_DF,
+CEP:111198,
+NROZONA:30,
+LE02CIDADE: "Sobradinho_DF",
+LE03ZONA: 30})
+
+db.createCollection("LE04BAIRRO")
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Carlos_SP",
+CEP:111111,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos_SP",
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Jardim Santa Paula_Sao Carlos_SP",
+CEP:111112,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos_SP",
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Jardim Bandeirantes_Sao Carlos_SP",
+CEP:111113,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos_SP",
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Cidade Aracy_Sao Carlos_SP",
+CEP:111114,
+NROZONA:1,
+LE02CIDADE: "Sao Carlos_SP",
+LE03ZONA: 1})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Paulo_SP",
+CEP:111115,
+NROZONA:2,
+LE02CIDADE: "Sao Paulo_SP",
+LE03ZONA: 2})
+db.LE04BAIRRO.insert({
+_id:"Pinheiros_Sao Paulo_SP",
+CEP:111116,
+NROZONA:3,
+LE02CIDADE: "Sao Paulo_SP",
+LE03ZONA: 3})
+db.LE04BAIRRO.insert({
+_id:"Higienopolis_Sao Paulo_SP",
+CEP:111117,
+NROZONA:4,
+LE02CIDADE: "Sao Paulo_SP",
+LE03ZONA: 4})
+db.LE04BAIRRO.insert({
+_id:"Itaquera_Sao Paulo_SP",
+CEP:111118,
+NROZONA:5,
+LE02CIDADE: "Sao Paulo_SP",
+LE03ZONA: 5})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Caetano_SP",
+CEP:111119,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano_SP",
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Caxingui_Sao Caetano_SP",
+CEP:111121,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano_SP",
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Jardim Vitoria_Sao Caetano_SP",
+CEP:111131,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano_SP",
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Serpa_Sao Caetano_SP",
+CEP:111561,
+NROZONA:6,
+LE02CIDADE: "Sao Caetano_SP",
+LE03ZONA: 6})
+db.LE04BAIRRO.insert({
+_id:"Jardim Itauna_Campinas_SP",
+CEP:111141,
+NROZONA:7,
+LE02CIDADE: "Campinas_SP",
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Jardim dos Eucaliptos_Campinas_SP",
+CEP:111151,
+NROZONA:7,
+LE02CIDADE: "Campinas_SP",
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Campinas_SP",
+CEP:111161,
+NROZONA:7,
+LE02CIDADE: "Campinas_SP",
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Centro_Campinas_SP",
+CEP:111171,
+NROZONA:7,
+LE02CIDADE: "Campinas_SP",
+LE03ZONA: 7})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sao Roque_SP",
+CEP:111181,
+NROZONA:8,
+LE02CIDADE: "Sao Roque_SP",
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Vila Rosina_Sao Roque_SP",
+CEP:111191,
+NROZONA:8,
+LE02CIDADE: "Sao Roque_SP",
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Pirituba_Sao Roque_SP",
+CEP:111211,
+NROZONA:8,
+LE02CIDADE: "Sao Roque_SP",
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Nova Sao Roque_Sao Roque_SP",
+CEP:111311,
+NROZONA:8,
+LE02CIDADE: "Sao Roque_SP",
+LE03ZONA: 8})
+db.LE04BAIRRO.insert({
+_id:"Centro_Florianopolis_SC",
+CEP:111411,
+NROZONA:9,
+LE02CIDADE: "Florianopolis_SC",
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Tucuruvi_Florianopolis_SC",
+CEP:111511,
+NROZONA:9,
+LE02CIDADE: "Florianopolis_SC",
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Jabaquara_Florianopolis_SC",
+CEP:111611,
+NROZONA:9,
+LE02CIDADE: "Florianopolis_SC",
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Jaragua_Florianopolis_SC",
+CEP:111711,
+NROZONA:9,
+LE02CIDADE: "Florianopolis_SC",
+LE03ZONA: 9})
+db.LE04BAIRRO.insert({
+_id:"Vila Clarisse_Fraiburgo_SC",
+CEP:111811,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo_SC",
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Vila Aurora_Fraiburgo_SC",
+CEP:111911,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo_SC",
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Agua Branca_Fraiburgo_SC",
+CEP:112111,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo_SC",
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Centro_Fraiburgo_SC",
+CEP:113111,
+NROZONA:10,
+LE02CIDADE: "Fraiburgo_SC",
+LE03ZONA: 10})
+db.LE04BAIRRO.insert({
+_id:"Barra da Tijuca_Joinville_SC",
+CEP:114111,
+NROZONA:11,
+LE02CIDADE: "Joinville_SC",
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Barra Funda_Joinville_SC",
+CEP:115111,
+NROZONA:11,
+LE02CIDADE: "Joinville_SC",
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Belem_Joinville_SC",
+CEP:116111,
+NROZONA:11,
+LE02CIDADE: "Joinville_SC",
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Centro_Joinville_SC",
+CEP:117111,
+NROZONA:11,
+LE02CIDADE: "Joinville_SC",
+LE03ZONA: 11})
+db.LE04BAIRRO.insert({
+_id:"Bras_Blumenau_SC",
+CEP:118111,
+NROZONA:12,
+LE02CIDADE: "Blumenau_SC",
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Bresser_Blumenau_SC",
+CEP:119111,
+NROZONA:12,
+LE02CIDADE: "Blumenau_SC",
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Mooca_Blumenau_SC",
+CEP:121111,
+NROZONA:12,
+LE02CIDADE: "Blumenau_SC",
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Centro_Blumenau_SC",
+CEP:131111,
+NROZONA:12,
+LE02CIDADE: "Blumenau_SC",
+LE03ZONA: 12})
+db.LE04BAIRRO.insert({
+_id:"Tiete_Crisciuma_SC",
+CEP:141111,
+NROZONA:31,
+LE02CIDADE: "Crisciuma_SC",
+LE03ZONA: 31})
+db.LE04BAIRRO.insert({
+_id:"Armenia_Crisciuma_SC",
+CEP:151111,
+NROZONA:31,
+LE02CIDADE: "Crisciuma_SC",
+LE03ZONA: 31})
+db.LE04BAIRRO.insert({
+_id:"Vila Madalena_Crisciuma_SC",
+CEP:161111,
+NROZONA:32,
+LE02CIDADE: "Crisciuma_SC",
+LE03ZONA: 32})
+db.LE04BAIRRO.insert({
+_id:"Centro_Crisciuma_SC",
+CEP:171111,
+NROZONA:32,
+LE02CIDADE: "Crisciuma_SC",
+LE03ZONA: 32})
+db.LE04BAIRRO.insert({
+_id:"Centro_Palmas_TO",
+CEP:181111,
+NROZONA:33,
+LE02CIDADE: "Palmas_TO",
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Grajau_Palmas_TO",
+CEP:191111,
+NROZONA:33,
+LE02CIDADE: "Palmas_TO",
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Lapa_Palmas_TO",
+CEP:211111,
+NROZONA:33,
+LE02CIDADE: "Palmas_TO",
+LE03ZONA: 33})
+db.LE04BAIRRO.insert({
+_id:"Morumbi_Palmas_TO",
+CEP:232111,
+NROZONA:34,
+LE02CIDADE: "Palmas_TO",
+LE03ZONA: 34})
+db.LE04BAIRRO.insert({
+_id:"Centro_Guaral_TO",
+CEP:311111,
+NROZONA:35,
+LE02CIDADE: "Guaral_TO",
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Ceasa_Guaral_TO",
+CEP:411111,
+NROZONA:35,
+LE02CIDADE: "Guaral_TO",
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Penha_Guaral_TO",
+CEP:511111,
+NROZONA:35,
+LE02CIDADE: "Guaral_TO",
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Castelo_Guaral_TO",
+CEP:611111,
+NROZONA:35,
+LE02CIDADE: "Guaral_TO",
+LE03ZONA: 35})
+db.LE04BAIRRO.insert({
+_id:"Centro_Araguaina_TO",
+CEP:711111,
+NROZONA:36,
+LE02CIDADE: "Araguaina_TO",
+LE03ZONA: 36})
+db.LE04BAIRRO.insert({
+_id:"Caraguatatuba_Araguaina_TO",
+CEP:811111,
+NROZONA:36,
+LE02CIDADE: "Araguaina_TO",
+LE03ZONA: 36})
+db.LE04BAIRRO.insert({
+_id:"Maresias_Araguaina_TO",
+CEP:911111,
+NROZONA:37,
+LE02CIDADE: "Araguaina_TO",
+LE03ZONA: 37})
+db.LE04BAIRRO.insert({
+_id:"Praia Grande_Araguaina_TO",
+CEP:111122,
+NROZONA:37,
+LE02CIDADE: "Araguaina_TO",
+LE03ZONA: 37})
+db.LE04BAIRRO.insert({
+_id:"Centro_Porto Nacional_TO",
+CEP:111123,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional_TO",
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Tainha_Porto Nacional_TO",
+CEP:111124,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional_TO",
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Jardinopolis_Porto Nacional_TO",
+CEP:111125,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional_TO",
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Centro 2_Porto Nacional_TO",
+CEP:111126,
+NROZONA:38,
+LE02CIDADE: "Porto Nacional_TO",
+LE03ZONA: 38})
+db.LE04BAIRRO.insert({
+_id:"Centro_Araguatins_TO",
+CEP:111127,
+NROZONA:13,
+LE02CIDADE: "Araguatins_TO",
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Nova Araguatins_Araguatins_TO",
+CEP:111128,
+NROZONA:13,
+LE02CIDADE: "Araguatins_TO",
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Francisco Morato_Araguatins_TO",
+CEP:111129,
+NROZONA:13,
+LE02CIDADE: "Araguatins_TO",
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Vila Rosina_Araguatins_TO",
+CEP:111130,
+NROZONA:13,
+LE02CIDADE: "Araguatins_TO",
+LE03ZONA: 13})
+db.LE04BAIRRO.insert({
+_id:"Centro_Fortaleza_CE",
+CEP:111132,
+NROZONA:14,
+LE02CIDADE: "Fortaleza_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Nova Fortaleza_Fortaleza_CE",
+CEP:111133,
+NROZONA:14,
+LE02CIDADE: "Fortaleza_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Sao Carlos_Fortaleza_CE",
+CEP:111134,
+NROZONA:14,
+LE02CIDADE: "Fortaleza_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Aracatuba_Fortaleza_CE",
+CEP:111135,
+NROZONA:14,
+LE02CIDADE: "Fortaleza_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Centro_Caucaia_CE",
+CEP:111136,
+NROZONA:14,
+LE02CIDADE: "Caucaia_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Presidente Prudente_Caucaia_CE",
+CEP:111137,
+NROZONA:14,
+LE02CIDADE: "Caucaia_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Vila Costa_Caucaia_CE",
+CEP:111138,
+NROZONA:14,
+LE02CIDADE: "Caucaia_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Nova Caucaia_Caucaia_CE",
+CEP:111139,
+NROZONA:14,
+LE02CIDADE: "Caucaia_CE",
+LE03ZONA: 14})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sobral_CE",
+CEP:111140,
+NROZONA:15,
+LE02CIDADE: "Sobral_CE",
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Santa Paula_Sobral_CE",
+CEP:111142,
+NROZONA:15,
+LE02CIDADE: "Sobral_CE",
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Nova Era_Sobral_CE",
+CEP:111143,
+NROZONA:15,
+LE02CIDADE: "Sobral_CE",
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Jardim Esperanca_Sobral_CE",
+CEP:111144,
+NROZONA:15,
+LE02CIDADE: "Sobral_CE",
+LE03ZONA: 15})
+db.LE04BAIRRO.insert({
+_id:"Centro_Crato_CE",
+CEP:111145,
+NROZONA:16,
+LE02CIDADE: "Crato_CE",
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Jardins II_Crato_CE",
+CEP:111146,
+NROZONA:16,
+LE02CIDADE: "Crato_CE",
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Jardins I_Crato_CE",
+CEP:111147,
+NROZONA:16,
+LE02CIDADE: "Crato_CE",
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Cratinopolis_Crato_CE",
+CEP:111148,
+NROZONA:16,
+LE02CIDADE: "Crato_CE",
+LE03ZONA: 16})
+db.LE04BAIRRO.insert({
+_id:"Centro_Juazeiro do Norte_CE",
+CEP:111149,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte_CE",
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Vilinha_Juazeiro do Norte_CE",
+CEP:111150,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte_CE",
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Juazeiro do Norte_CE",
+CEP:111152,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte_CE",
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Parque Central_Juazeiro do Norte_CE",
+CEP:111153,
+NROZONA:17,
+LE02CIDADE: "Juazeiro do Norte_CE",
+LE03ZONA: 17})
+db.LE04BAIRRO.insert({
+_id:"Centro_Manaus_AM",
+CEP:111154,
+NROZONA:18,
+LE02CIDADE: "Manaus_AM",
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Vila Nova_Manaus_AM",
+CEP:111155,
+NROZONA:18,
+LE02CIDADE: "Manaus_AM",
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Vila Rica_Manaus_AM",
+CEP:111156,
+NROZONA:18,
+LE02CIDADE: "Manaus_AM",
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Jardim Vitoria_Manaus_AM",
+CEP:111157,
+NROZONA:18,
+LE02CIDADE: "Manaus_AM",
+LE03ZONA: 18})
+db.LE04BAIRRO.insert({
+_id:"Centro_Parintins_AM",
+CEP:111158,
+NROZONA:19,
+LE02CIDADE: "Parintins_AM",
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Ouro Preto_Parintins_AM",
+CEP:111159,
+NROZONA:19,
+LE02CIDADE: "Parintins_AM",
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Jardinopolis_Parintins_AM",
+CEP:111160,
+NROZONA:19,
+LE02CIDADE: "Parintins_AM",
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Augusta_Parintins_AM",
+CEP:111162,
+NROZONA:19,
+LE02CIDADE: "Parintins_AM",
+LE03ZONA: 19})
+db.LE04BAIRRO.insert({
+_id:"Centro_Humaita_AM",
+CEP:111163,
+NROZONA:20,
+LE02CIDADE: "Humaita_AM",
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Vila Seixas_Humaita_AM",
+CEP:111164,
+NROZONA:20,
+LE02CIDADE: "Humaita_AM",
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Parque Vitoria_Humaita_AM",
+CEP:111165,
+NROZONA:20,
+LE02CIDADE: "Humaita_AM",
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Parque 120_Humaita_AM",
+CEP:111166,
+NROZONA:20,
+LE02CIDADE: "Humaita_AM",
+LE03ZONA: 20})
+db.LE04BAIRRO.insert({
+_id:"Centro_Coari_AM",
+CEP:111167,
+NROZONA:21,
+LE02CIDADE: "Coari_AM",
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Oscar Freire_Coari_AM",
+CEP:111168,
+NROZONA:21,
+LE02CIDADE: "Coari_AM",
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Vila Augusta_Coari_AM",
+CEP:111169,
+NROZONA:21,
+LE02CIDADE: "Coari_AM",
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Haddock Lobo_Coari_AM",
+CEP:111170,
+NROZONA:21,
+LE02CIDADE: "Coari_AM",
+LE03ZONA: 21})
+db.LE04BAIRRO.insert({
+_id:"Centro_Maues_AM",
+CEP:111172,
+NROZONA:22,
+LE02CIDADE: "Maues_AM",
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Consolacao_Maues_AM",
+CEP:111173,
+NROZONA:22,
+LE02CIDADE: "Maues_AM",
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Jardins_Maues_AM",
+CEP:111174,
+NROZONA:22,
+LE02CIDADE: "Maues_AM",
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Largo do Paissandu_Maues_AM",
+CEP:111175,
+NROZONA:22,
+LE02CIDADE: "Maues_AM",
+LE03ZONA: 22})
+db.LE04BAIRRO.insert({
+_id:"Centro_Brasilia_DF",
+CEP:111176,
+NROZONA:23,
+LE02CIDADE: "Brasilia_DF",
+LE03ZONA: 23})
+db.LE04BAIRRO.insert({
+_id:"Praca Ramos_Brasilia_DF",
+CEP:111177,
+NROZONA:23,
+LE02CIDADE: "Brasilia_DF",
+LE03ZONA: 23})
+db.LE04BAIRRO.insert({
+_id:"Jardim Curuzu_Brasilia_DF",
+CEP:111178,
+NROZONA:24,
+LE02CIDADE: "Brasilia_DF",
+LE03ZONA: 24})
+db.LE04BAIRRO.insert({
+_id:"Jabaquara_Brasilia_DF",
+CEP:111179,
+NROZONA:24,
+LE02CIDADE: "Brasilia_DF",
+LE03ZONA: 24})
+db.LE04BAIRRO.insert({
+_id:"Centro_Gama_DF",
+CEP:111180,
+NROZONA:25,
+LE02CIDADE: "Gama_DF",
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Pinheiros_Gama_DF",
+CEP:111182,
+NROZONA:25,
+LE02CIDADE: "Gama_DF",
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Caxingui_Gama_DF",
+CEP:111183,
+NROZONA:25,
+LE02CIDADE: "Gama_DF",
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Butanta_Gama_DF",
+CEP:111184,
+NROZONA:25,
+LE02CIDADE: "Gama_DF",
+LE03ZONA: 25})
+db.LE04BAIRRO.insert({
+_id:"Centro_Ceilandia_DF",
+CEP:111185,
+NROZONA:26,
+LE02CIDADE: "Ceilandia_DF",
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Alto da Lapa_Ceilandia_DF",
+CEP:111186,
+NROZONA:26,
+LE02CIDADE: "Ceilandia_DF",
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Jardim Europa_Ceilandia_DF",
+CEP:111187,
+NROZONA:26,
+LE02CIDADE: "Ceilandia_DF",
+LE03ZONA: 26})
+db.LE04BAIRRO.insert({
+_id:"Alphaville_Ceilandia_DF",
+CEP:111188,
+NROZONA:27,
+LE02CIDADE: "Ceilandia_DF",
+LE03ZONA: 27})
+db.LE04BAIRRO.insert({
+_id:"Centro_Taguatinga_DF",
+CEP:111190,
+NROZONA:28,
+LE02CIDADE: "Taguatinga_DF",
+LE03ZONA: 28})
+db.LE04BAIRRO.insert({
+_id:"Santa Fe_Taguatinga_DF",
+CEP:111192,
+NROZONA:29,
+LE02CIDADE: "Taguatinga_DF",
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Araraquara_Taguatinga_DF",
+CEP:111193,
+NROZONA:29,
+LE02CIDADE: "Taguatinga_DF",
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Rio Claro_Taguatinga_DF",
+CEP:111194,
+NROZONA:29,
+LE02CIDADE: "Taguatinga_DF",
+LE03ZONA: 29})
+db.LE04BAIRRO.insert({
+_id:"Centro_Sobradinho_DF",
+CEP:111195,
+NROZONA:30,
+LE02CIDADE: "Sobradinho_DF",
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Jundiai_Sobradinho_DF",
+CEP:111196,
+NROZONA:30,
+LE02CIDADE: "Sobradinho_DF",
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Barueri_Sobradinho_DF",
+CEP:111197,
+NROZONA:30,
+LE02CIDADE: "Sobradinho_DF",
+LE03ZONA: 30})
+db.LE04BAIRRO.insert({
+_id:"Caieiras_Sobradinho_DF",
+CEP:111198,
+NROZONA:30,
+LE02CIDADE: "Sobradinho_DF",
+LE03ZONA: 30})
+

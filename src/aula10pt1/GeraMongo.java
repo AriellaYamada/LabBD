@@ -418,9 +418,9 @@ public class GeraMongo {
                         mongoString = mongoString.substring(0, mongoString.length() - 1);
                     }
                     if (tmp.pkvalor.get(j).charAt(0) == '"') {
-                        mongoString += "_" + tmp.pkvalor.get(j).substring(1, tmp.pkvalor.get(j).length() - 1);
+                        mongoString += "_" + tmp.pkvalor.get(j).substring(1, tmp.pkvalor.get(j).length() - 1) + "\"";
                     } else {
-                        mongoString += "_" + tmp.pkvalor.get(j);
+                        mongoString += "_" + tmp.pkvalor.get(j) + "\"";
                     }
                 }
             }
@@ -432,12 +432,15 @@ public class GeraMongo {
             String tmpTabela = "";
             for (int j = 0; j < R_table.size(); j++) {
                 try {
-
                     if (tmp.fkvalor.get(j) != null && !tmp.fkvalor.get(j).contains("null")) {
                         if (tmpTabela.equals(R_table.get(j))) {
-                            mongoString += "_" + tmp.fkvalor.get(j);
+                            mongoString = mongoString.substring(0, mongoString.length() - 1);
+                            mongoString += "_" + tmp.fkvalor.get(j) + "\"";
                         } else {
-                            mongoString += ",\n" + R_table.get(j) + ": " + tmp.fkvalor.get(j);
+                            if(isNumeric(tmp.fkvalor.get(j)))
+                                mongoString += ",\n" + R_table.get(j) + ": " + tmp.fkvalor.get(j);
+                            else
+                                mongoString += ",\n" + R_table.get(j) + ": \"" + tmp.fkvalor.get(j) + "\"";
                         }
                         tmpTabela = R_table.get(j);
                     }
