@@ -412,16 +412,23 @@ public class GeraMongo {
             mongoString += "db." + tabela + ".insert({\n";
             for (int j = 0; j < tmp.pkvalor.size(); j++) {
                 if (j == 0) {
-                    mongoString += "_id:" + tmp.pkvalor.get(j);
+                    if(isNumeric(tmp.pkvalor.get(j)) && tmp.pkvalor.size() == 1) 
+                        mongoString += "_id:" + tmp.pkvalor.get(j);
+                    else if (isNumeric(tmp.pkvalor.get(j)))
+                        mongoString += "_id: \"" + tmp.pkvalor.get(j) + "\"";
+                    else
+                        mongoString += "_id: " + tmp.pkvalor.get(j);
                 } else {
                     if (mongoString.charAt(mongoString.length() - 1) == '"') {
                         mongoString = mongoString.substring(0, mongoString.length() - 1);
                     }
+                   
                     if (tmp.pkvalor.get(j).charAt(0) == '"') {
-                        mongoString += "_" + tmp.pkvalor.get(j).substring(1, tmp.pkvalor.get(j).length() - 1) + "\"";
+                        mongoString += "_" + tmp.pkvalor.get(j).substring(1, tmp.pkvalor.get(j).length() - 1);
                     } else {
-                        mongoString += "_" + tmp.pkvalor.get(j) + "\"";
+                        mongoString += "_" + tmp.pkvalor.get(j);
                     }
+                    mongoString += "\"";
                 }
             }
             for (int j = 0; j < tmp.colunas.size(); j++) {
