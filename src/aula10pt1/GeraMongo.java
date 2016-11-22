@@ -374,7 +374,7 @@ public class GeraMongo {
                 if (tmpTupla.indexOf(arrayTabela.get(j).fkvalor.get(i)) == -1) {
                     tmpTupla.add(arrayTabela.get(j).fkvalor.get(i));
                     for (int k = 0; k < arrayTabela.size(); k++) {
-                        if (arrayTabela.get(k).fkvalor.get(i) == arrayTabela.get(j).fkvalor.get(i) && 
+                        if (arrayTabela.get(k).fkvalor.get(i) != null && arrayTabela.get(k).fkvalor.get(i).indexOf("null") == -1 && arrayTabela.get(k).fkvalor.get(i) == arrayTabela.get(j).fkvalor.get(i) && 
                             tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(0)) == -1){
                                 tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
                         }
