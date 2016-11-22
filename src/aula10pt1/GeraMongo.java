@@ -1,5 +1,9 @@
 package aula10pt1;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
@@ -315,58 +319,12 @@ public class GeraMongo {
             }
             mongoString += "})\n";
         }
+        fileWriter(mongoString);
         System.out.println(mongoString);
     }
 
     public void montaStringNN(String tabela) {
         String mongoString = "";
-        /*if (tabela.equals("LE10CANDIDATURA")){
-            ArrayList<String> tmpTupla = new ArrayList();
-            for (int j = 0; j < arrayTabela.size(); j++){
-                ArrayList<String> tmpRef = new ArrayList();
-                if (tmpTupla.indexOf(arrayTabela.get(j).fkvalor.get(0)) == -1) {
-                    tmpTupla.add(arrayTabela.get(j).fkvalor.get(0));
-                    for (int k = 0; k < arrayTabela.size(); k++) {
-                        if (arrayTabela.get(k).fkvalor.get(0) == arrayTabela.get(j).fkvalor.get(0) && 
-                            tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(0)) == -1){
-                                tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
-                        }
-                    }
-                    mongoString += "db." + R_table.get(0) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(0) +
-                            "},{$set:{" + tabela.substring(4,tabela.length()).toLowerCase() + ":[";
-                    for (int k = 0; k < tmpRef.size(); k++){
-                        if(k == 0)
-                            mongoString += tmpRef.get(k);
-                        else
-                            mongoString += "," + tmpRef.get(k);
-                    }
-                    mongoString += "]}})\n";                
-                }
-            }
-            tmpTupla.clear();
-            for (int j = 0; j < arrayTabela.size(); j++){
-                ArrayList<String> tmpRef = new ArrayList();
-                if (tmpTupla.indexOf(arrayTabela.get(j).fkvalor.get(2)) == -1) {
-                    tmpTupla.add(arrayTabela.get(j).fkvalor.get(2));
-                    for (int k = 0; k < arrayTabela.size(); k++) {
-                        if (arrayTabela.get(k).fkvalor.get(2) == arrayTabela.get(j).fkvalor.get(2) && 
-                            tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(2)) == -1){
-                                tmpRef.add(arrayTabela.get(k).pkvalor.get(2));
-                        }
-                    }
-                    mongoString += "db." + R_table.get(2) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(2) +
-                            "},{$set:{" + tabela.substring(4,tabela.length()).toLowerCase() + ":[";
-                    for (int k = 0; k < tmpRef.size(); k++){
-                        if(k == 0)
-                            mongoString += tmpRef.get(k);
-                        else
-                            mongoString += "," + tmpRef.get(k);
-                    }
-                    mongoString += "]}})\n";                
-                }
-            }
-            
-        }*/
         for (int i = 0; i < R_table.size(); i++) {
             ArrayList<String> tmpTupla = new ArrayList();
             for (int j = 0; j < arrayTabela.size(); j++){
@@ -391,6 +349,7 @@ public class GeraMongo {
                 }
             }
         }
+        fileWriter(mongoString);
         System.out.println(mongoString);
     }
 
@@ -438,6 +397,7 @@ public class GeraMongo {
             }
             mongoString += "}})\n";
         }
+        fileWriter(mongoString);
         System.out.println(mongoString);
     }
 
@@ -469,6 +429,7 @@ public class GeraMongo {
             mongoString += ",\n" + embedTabela + ": doc._id";
             mongoString += "})\n";
         }
+        fileWriter(mongoString);
         System.out.println(mongoString);
     }
 
@@ -554,6 +515,16 @@ public class GeraMongo {
             return false;
         }
         return true;
+    }
+    
+    public static void fileWriter(String script){
+        try (FileWriter fw = new FileWriter("saida.txt", true);
+                BufferedWriter bw = new BufferedWriter(fw);
+                PrintWriter out = new PrintWriter(bw)) {
+            out.println(script);
+        } catch (IOException e) {
+            System.out.println("Erro ao gerar arquivo de saída");
+        }
     }
 
 }
