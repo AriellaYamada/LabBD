@@ -65,8 +65,8 @@ public class GeraMongo {
             flag = 2;
             StringTokenizer stok = new StringTokenizer(tabela, " ");
             this.tabela = stok.nextToken().trim();
-            stok.nextToken().trim();
-            this.embedTabela = stok.nextToken().trim();
+            System.out.println(this.tabela);
+            //return;
         } else if (tabela.indexOf("--nn") != -1) {
             flag = 3;
             StringTokenizer stok = new StringTokenizer(tabela, " ");
@@ -83,8 +83,8 @@ public class GeraMongo {
             getFks(tabela);
             getUniques(tabela);
             selectStar(tabela, 1);
-            montaIndex(tabela);
             montaString(tabela);
+            //montaIndex(tabela);
         }
         if (flag == 1) {
             pegarNomesDeTabelas(tabela);
@@ -100,6 +100,7 @@ public class GeraMongo {
             selectStar(embedTabela, 2);
 
             montaStringEmbedded(tabela);
+            //montaIndex(tabela);
         }
         if (flag == 2) {
             pegarNomesDeTabelas(tabela);
@@ -108,6 +109,7 @@ public class GeraMongo {
             getFks(tabela);
             selectStar(tabela, 1);
             montaStringRef(tabela);
+            //montaIndex(tabela);
         }
         if (flag == 3) {
             pegarNomesDeTabelas(tabela);
@@ -117,8 +119,8 @@ public class GeraMongo {
             selectStar(tabela, 1);
             montaString(tabela);
             montaStringNN(tabela);
+            //montaIndex(tabela);
         }
-
     }
 
     public void getPk(String tabela) {
@@ -407,7 +409,7 @@ public class GeraMongo {
         Tabela tmp = null;
         for (int i = 0; i < arrayTabela.size(); i++) {
             tmp = arrayTabela.get(i);
-            mongoString += "var doc = db." + embedTabela + ".findOne({_id:\"" + tmp.fkvalor.get(0) + "\"})\n";
+            //mongoString += "var doc = db." + embedTabela + ".findOne({_id:\"" + tmp.fkvalor.get(0) + "\"})\n";
             mongoString += "db." + tabela + ".insert({\n";
             for (int j = 0; j < tmp.pkvalor.size(); j++) {
                 if (j == 0) {
@@ -426,7 +428,15 @@ public class GeraMongo {
             for (int j = 0; j < tmp.colunas.size(); j++) {
                 mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
             }
-            mongoString += ",\n" + embedTabela + ": doc._id";
+            String tmpTabela = "";
+            for (int j = 0; j < R_table.size(); j++) {
+                if(tmpTabela.equals(R_table.get(j))) {
+                    mongoString += "_" + tmp.fkvalor.get(j);
+                } else {
+                    mongoString += ",\n" + R_table.get(j) + ": " + tmp.fkvalor.get(j);
+                }
+                tmpTabela = R_table.get(j);
+            }
             mongoString += "})\n";
         }
         fileWriter(mongoString);
