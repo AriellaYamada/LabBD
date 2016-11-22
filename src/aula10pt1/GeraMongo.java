@@ -177,9 +177,9 @@ public class GeraMongo {
                     isFk = true;
                     rTable = R_table.get(i);
                     if (i == 0) {
-                        mongoString += rTable + "._id: 1";
+                        mongoString += rTable + ": 1";
                     } else {
-                        mongoString += ", " + rTable + "._id: 1";
+                        mongoString += ", " + rTable + ": 1";
                     }
                 }
             } else if (i == 0) {

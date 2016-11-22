@@ -2714,9 +2714,6 @@ NOMEDESCRITIVO:"Presidente2002",
 NRODECADEIRAS:1,
 ESFERA:"F"})
 
-db.createCollection("LE10CADIDATURA")
-
-
 db.createCollection("LE10CANDIDATURA")
 db.LE10CANDIDATURA.insert({
 _id:1,
@@ -3038,5 +3035,9 @@ PERIODOFIM:"2006-02-10 00:00:00.0",
 ORGAOPESQUISA:"IBOPE"})
 
 
-db.LE01ESTADO.createIndex({NOME: 1} , {unique : true})
 db.LE04BAIRRO.createIndex({CEP: 1} , {unique : true})
+db.LE07PARTIDO.createIndex({NOME: 1} , {unique : true})
+db.LEO8CANDIDATO.createIndex({} , {unique : true})
+db.LE08CANDIDATO.createIndex({CPF: 1} , {unique : true})
+db.LE09CARGO.createIndex({NOMEDESCRITIVO: 1, LE02CIDADE._id: 1} , {unique : true})
+db.LE10CANDIDATURA.createIndex({LE08CANDIDATO._id: 1, ANO: 1} , {unique : true})
