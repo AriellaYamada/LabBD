@@ -111,7 +111,7 @@ public class GeraMongo {
             getPk(tabela);
             getFks(tabela);
             selectStar(tabela, 1);
-            
+            montaString(tabela);
             montaStringNN(tabela);
         }
 
@@ -320,6 +320,53 @@ public class GeraMongo {
 
     public void montaStringNN(String tabela) {
         String mongoString = "";
+        /*if (tabela.equals("LE10CANDIDATURA")){
+            ArrayList<String> tmpTupla = new ArrayList();
+            for (int j = 0; j < arrayTabela.size(); j++){
+                ArrayList<String> tmpRef = new ArrayList();
+                if (tmpTupla.indexOf(arrayTabela.get(j).fkvalor.get(0)) == -1) {
+                    tmpTupla.add(arrayTabela.get(j).fkvalor.get(0));
+                    for (int k = 0; k < arrayTabela.size(); k++) {
+                        if (arrayTabela.get(k).fkvalor.get(0) == arrayTabela.get(j).fkvalor.get(0) && 
+                            tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(0)) == -1){
+                                tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
+                        }
+                    }
+                    mongoString += "db." + R_table.get(0) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(0) +
+                            "},{$set:{" + tabela.substring(4,tabela.length()).toLowerCase() + ":[";
+                    for (int k = 0; k < tmpRef.size(); k++){
+                        if(k == 0)
+                            mongoString += tmpRef.get(k);
+                        else
+                            mongoString += "," + tmpRef.get(k);
+                    }
+                    mongoString += "]}})\n";                
+                }
+            }
+            tmpTupla.clear();
+            for (int j = 0; j < arrayTabela.size(); j++){
+                ArrayList<String> tmpRef = new ArrayList();
+                if (tmpTupla.indexOf(arrayTabela.get(j).fkvalor.get(2)) == -1) {
+                    tmpTupla.add(arrayTabela.get(j).fkvalor.get(2));
+                    for (int k = 0; k < arrayTabela.size(); k++) {
+                        if (arrayTabela.get(k).fkvalor.get(2) == arrayTabela.get(j).fkvalor.get(2) && 
+                            tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(2)) == -1){
+                                tmpRef.add(arrayTabela.get(k).pkvalor.get(2));
+                        }
+                    }
+                    mongoString += "db." + R_table.get(2) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(2) +
+                            "},{$set:{" + tabela.substring(4,tabela.length()).toLowerCase() + ":[";
+                    for (int k = 0; k < tmpRef.size(); k++){
+                        if(k == 0)
+                            mongoString += tmpRef.get(k);
+                        else
+                            mongoString += "," + tmpRef.get(k);
+                    }
+                    mongoString += "]}})\n";                
+                }
+            }
+            
+        }*/
         for (int i = 0; i < R_table.size(); i++) {
             ArrayList<String> tmpTupla = new ArrayList();
             for (int j = 0; j < arrayTabela.size(); j++){
@@ -327,7 +374,7 @@ public class GeraMongo {
                 if (tmpTupla.indexOf(arrayTabela.get(j).fkvalor.get(i)) == -1) {
                     tmpTupla.add(arrayTabela.get(j).fkvalor.get(i));
                     for (int k = 0; k < arrayTabela.size(); k++) {
-                        if(arrayTabela.get(k).fkvalor.get(i) == arrayTabela.get(j).fkvalor.get(i) && 
+                        if (arrayTabela.get(k).fkvalor.get(i) == arrayTabela.get(j).fkvalor.get(i) && 
                             tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(0)) == -1){
                                 tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
                         }
