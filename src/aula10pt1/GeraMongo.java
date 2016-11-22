@@ -172,12 +172,10 @@ public class GeraMongo {
                         mongoString += ", " + rTable + "._id: 1";
                     }
                 }
+            } else if (i == 0) {
+                mongoString += tmp + ": 1";
             } else {
-                if (i == 0) {
-                    mongoString += tmp + ": 1";
-                } else {
-                    mongoString += ", " + tmp + ": 1";
-                }
+                mongoString += ", " + tmp + ": 1";
             }
         }
         mongoString += "} , {unique : true})";
@@ -314,8 +312,9 @@ public class GeraMongo {
                 }
             }
             for (int j = 0; j < tmp.colunas.size(); j++) {
-                if(tmp.valores.get(j) != null && tmp.valores.get(j).indexOf("null") == -1)
+                if (tmp.valores.get(j) != null && tmp.valores.get(j).indexOf("null") == -1) {
                     mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
+                }
             }
             mongoString += "})\n";
         }
@@ -327,25 +326,26 @@ public class GeraMongo {
         String mongoString = "";
         for (int i = 0; i < R_table.size(); i++) {
             ArrayList<String> tmpTupla = new ArrayList();
-            for (int j = 0; j < arrayTabela.size(); j++){
+            for (int j = 0; j < arrayTabela.size(); j++) {
                 ArrayList<String> tmpRef = new ArrayList();
                 if (tmpTupla.indexOf(arrayTabela.get(j).fkvalor.get(i)) == -1) {
                     tmpTupla.add(arrayTabela.get(j).fkvalor.get(i));
                     for (int k = 0; k < arrayTabela.size(); k++) {
-                        if (arrayTabela.get(k).fkvalor.get(i) != null && arrayTabela.get(k).fkvalor.get(i).indexOf("null") == -1 && arrayTabela.get(k).fkvalor.get(i) == arrayTabela.get(j).fkvalor.get(i) && 
-                            tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(0)) == -1){
-                                tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
+                        if (arrayTabela.get(k).fkvalor.get(i) != null && arrayTabela.get(k).fkvalor.get(i).indexOf("null") == -1 && arrayTabela.get(k).fkvalor.get(i) == arrayTabela.get(j).fkvalor.get(i)
+                                && tmpRef.indexOf(arrayTabela.get(k).pkvalor.get(0)) == -1) {
+                            tmpRef.add(arrayTabela.get(k).pkvalor.get(0));
                         }
                     }
-                    mongoString += "db." + R_table.get(i) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(i) +
-                            "},{$set:{" + tabela.substring(4,tabela.length()).toLowerCase() + ":[";
-                    for (int k = 0; k < tmpRef.size(); k++){
-                        if(k == 0)
+                    mongoString += "db." + R_table.get(i) + ".update({_id:" + arrayTabela.get(j).fkvalor.get(i)
+                            + "},{$set:{" + tabela.substring(4, tabela.length()).toLowerCase() + ":[";
+                    for (int k = 0; k < tmpRef.size(); k++) {
+                        if (k == 0) {
                             mongoString += tmpRef.get(k);
-                        else
+                        } else {
                             mongoString += "," + tmpRef.get(k);
+                        }
                     }
-                    mongoString += "]}})\n";                
+                    mongoString += "]}})\n";
                 }
             }
         }
@@ -376,8 +376,9 @@ public class GeraMongo {
                 }
             }
             for (int j = 0; j < tmp.colunas.size(); j++) {
-                if(tmp.valores.get(j) != null && !tmp.valores.get(j).contains("null"))
+                if (tmp.valores.get(j) != null && !tmp.valores.get(j).contains("null")) {
                     mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
+                }
             }
 
             mongoString += ",\n" + embedTabela + ":{";
@@ -388,8 +389,9 @@ public class GeraMongo {
                         mongoString += arrayTabelaEmbedded.get(j).pk.get(k) + ":" + arrayTabelaEmbedded.get(j).pkvalor.get(k);
                     }
                     for (int k = 0; k < arrayTabelaEmbedded.get(j).colunas.size(); k++) {
-                        if(arrayTabelaEmbedded.get(j).valores.get(k) != null)
+                        if (arrayTabelaEmbedded.get(j).valores.get(k) != null) {
                             mongoString += ",\n" + arrayTabelaEmbedded.get(j).colunas.get(k) + ":" + arrayTabelaEmbedded.get(j).valores.get(k);
+                        }
                     }
                     break;
                 }
@@ -423,24 +425,31 @@ public class GeraMongo {
                 }
             }
             for (int j = 0; j < tmp.colunas.size(); j++) {
-                if(tmp.valores.get(j) != null && !tmp.valores.get(j).contains("null"))
-                mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
+                if (tmp.valores.get(j) != null && !tmp.valores.get(j).contains("null")) {
+                    mongoString += ",\n" + tmp.colunas.get(j) + ":" + tmp.valores.get(j);
+                }
             }
             String tmpTabela = "";
             for (int j = 0; j < R_table.size(); j++) {
-                if(tmp.fkvalor.get(j) != null && !tmp.fkvalor.get(j).contains("null")) {
-                    if (tmpTabela.equals(R_table.get(j))) {
-                        mongoString += "_" + tmp.fkvalor.get(j);
-                    } else {
-                        mongoString += ",\n" + R_table.get(j) + ": " + tmp.fkvalor.get(j);
+                try {
+
+                    if (tmp.fkvalor.get(j) != null && !tmp.fkvalor.get(j).contains("null")) {
+                        if (tmpTabela.equals(R_table.get(j))) {
+                            mongoString += "_" + tmp.fkvalor.get(j);
+                        } else {
+                            mongoString += ",\n" + R_table.get(j) + ": " + tmp.fkvalor.get(j);
+                        }
+                        tmpTabela = R_table.get(j);
                     }
-                    tmpTabela = R_table.get(j);
+                } catch (Exception e) {
+
                 }
             }
             mongoString += "})\n";
         }
         fileWriter(mongoString);
         System.out.println(mongoString);
+
     }
 
     public void selectStarEmbedded(String tabela, String valor) {
@@ -476,27 +485,21 @@ public class GeraMongo {
                             } else {
                                 mongoString += nomesColunas.get(i - 1) + ": \"" + rs.getString(i) + "\"";
                             }
+                        } else if (nomesColunas.get(i - 1).equals(Pks.get(0))) {
+                            mongoString += "_id: \"" + rs.getString(Pks.get(0)) + "_" + rs.getString(Pks.get(1)) + "\"";
                         } else {
-                            if (nomesColunas.get(i - 1).equals(Pks.get(0))) {
-                                mongoString += "_id: \"" + rs.getString(Pks.get(0)) + "_" + rs.getString(Pks.get(1)) + "\"";
-                            } else {
-                                mongoString += nomesColunas.get(i - 1) + ": \"" + rs.getString(i) + "\"";
-                            }
+                            mongoString += nomesColunas.get(i - 1) + ": \"" + rs.getString(i) + "\"";
                         }
+                    } else if (Pks.size() == 1) {
+                        if (nomesColunas.get(i - 1).equals(Pks.get(0))) {
+                            mongoString += "_id: " + rs.getString(i);
+                        } else {
+                            mongoString += nomesColunas.get(i - 1) + ": " + rs.getString(i);
+                        }
+                    } else if (nomesColunas.get(i - 1).equals(Pks.get(0))) {
+                        mongoString += "_id: " + rs.getString(Pks.get(0)) + "_" + rs.getString(Pks.get(1));
                     } else {
-                        if (Pks.size() == 1) {
-                            if (nomesColunas.get(i - 1).equals(Pks.get(0))) {
-                                mongoString += "_id: " + rs.getString(i);
-                            } else {
-                                mongoString += nomesColunas.get(i - 1) + ": " + rs.getString(i);
-                            }
-                        } else {
-                            if (nomesColunas.get(i - 1).equals(Pks.get(0))) {
-                                mongoString += "_id: " + rs.getString(Pks.get(0)) + "_" + rs.getString(Pks.get(1));
-                            } else {
-                                mongoString += nomesColunas.get(i - 1) + ": " + rs.getString(i);
-                            }
-                        }
+                        mongoString += nomesColunas.get(i - 1) + ": " + rs.getString(i);
                     }
                     if (i != nColunas) {
                         mongoString += ",\n";
@@ -526,8 +529,8 @@ public class GeraMongo {
         }
         return true;
     }
-    
-    public static void fileWriter(String script){
+
+    public static void fileWriter(String script) {
         try (FileWriter fw = new FileWriter("saida.txt", true);
                 BufferedWriter bw = new BufferedWriter(fw);
                 PrintWriter out = new PrintWriter(bw)) {
